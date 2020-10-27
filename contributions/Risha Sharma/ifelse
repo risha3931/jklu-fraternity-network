@@ -1,0 +1,104 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "1.Take values of length and breadth of a rectangle from user and check if it is square or not."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "enter the length 10\n",
+      "enter the breadth 6\n",
+      "it is a rectangle\n"
+     ]
+    }
+   ],
+   "source": [
+    "length=float(input(\"enter the length \"))\n",
+    "breadth=float(input(\"enter the breadth \"))\n",
+    "if(length==breadth):\n",
+    "    print(\"it is a square\")\n",
+    "else:\n",
+    "    print(\"it is a rectangle\")\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "2.Take two int values from user and print greatest among them."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "enter the first no 10\n",
+      "enter the second no 5\n",
+      "10 is greater\n"
+     ]
+    }
+   ],
+   "source": [
+    "first=int(input(\"enter the first no \"))\n",
+    "second=int(input(\"enter the second no \"))\n",
+    "if(first>second):\n",
+    "    print(first,\"is greater\")\n",
+    "elif(first==second):\n",
+    "    print(\"both the no are equal\")\n",
+    "else:\n",
+    "    print(second,\"is greater\")\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "3.A shop will give discount of 10% if the cost of purchased quantity is more than 1000.Ask user for quantity Suppose, one unit will cost 100.Judge and print total cost for user."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "enter the quantity of product 15\n",
+      "total cost of the product is:  1350.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "\n",
+    "quan=int(input(\"enter the quantity of product \"))\n",
+    "price=100*quan\n",
+    "if(price>1000):\n",
+    "    price=price*0.9\n",
+    "print(\"total cost of the product is: \",price)\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    
+    
